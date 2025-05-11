@@ -1,11 +1,11 @@
-import React from "react";
+import Header from "../components/Header";
 
-function page() {
+export default function LandingPage() {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div>
+      <main>
+        <h1>This is Landing Page</h1>
+      </main>
+    </div>
   );
 }
-
-export default page;
